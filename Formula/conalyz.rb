@@ -5,13 +5,13 @@ class Conalyz < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/conalyz/homebrew-conalyz/releases/download/v1.0.0/conalyz-macos-arm64"
+      url "https://github.com/conalyz/homebrew-conalyz/releases/download/v1.0.0/conalyz"
       sha256 "f96c5d96fcc5be379cbc7ae0ec23c306e2bfd579e851eca69b489e2b1853ad9f"
     end
   end
 
   def install
-    bin.install "conalyz-macos-arm64" => "conalyz"
+    bin.install "conalyz"
   end
 
   test do
