@@ -1,12 +1,12 @@
 class Conalyz < Formula
   desc "Flutter accessibility analyzer — static and runtime analysis"
   homepage "https://github.com/conalyz"
-  version "1.0.0"
+  version "1.1.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/conalyz/homebrew-conalyz/releases/download/v1.0.0/conalyz"
-      sha256 "c5ae6d86401dd7002f7fdb0d65f4fb13b02eb7ab173b87abbcd1c74e073b3d15"
+      url "https://github.com/conalyz/homebrew-conalyz/releases/download/v1.1.0/conalyz"
+      sha256 "6740c706f4ec557d1d3735eaadada81dc10f3ba6e8930cfd64c0a5e5dd757dd7"
     end
   end
 
